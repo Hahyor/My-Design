@@ -93,3 +93,48 @@ section button{
     border-radius: 5px;
     background-color: orangered;
 }
+
+aside{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+
+}
+
+aside img{
+    height: 100px;
+    width: 100px;
+}
+
+.card{
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+aside h3{
+    margin: 20px;
+    align-items: center;
+}
+
+aside p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: light;
+}
+
+footer{
+    width: auto;
+    height: 70px;
+    color: white;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
