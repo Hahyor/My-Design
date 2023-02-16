@@ -47,7 +47,7 @@ main{
     align-items: center;
     justify-content: center;
     background-image: url(design.jpeg);
-    object-fit: cover;
+    background-size: cover;
 }
 
 main h1{
@@ -58,6 +58,38 @@ main h1{
 main p{
     padding-left: 60px;
     padding-right: 60px;
-    color: orangered;
-    font-size:15px ;
+    color: white;
+    font-size:20px ;
+}
+
+section{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    background-color: pink;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+section p{
+    color: blue;
+    font-size: 20px;
+}
+
+section input{
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+section button{
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: orangered;
 }
